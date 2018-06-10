@@ -56,7 +56,6 @@ CREATE TABLE personal (
 INSERT INTO personal VALUES(NULL, 'admin','Admin','Admin','2','1',1);
 INSERT INTO personal VALUES(NULL, '11-1','Luis','Martinez','2','2',1);
 
-/*Esta tabla almacena a los clientes que decidan registrarse para recibir promociones.*/
 CREATE TABLE cliente (
 	cliente_fono VARCHAR(50),
 	cliente_nombre VARCHAR(50),
