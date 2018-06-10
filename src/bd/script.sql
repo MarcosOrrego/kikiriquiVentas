@@ -16,7 +16,7 @@ INSERT INTO tipoUsuario VALUES (NULL, 'NORMAL', 1);
 CREATE TABLE usuario(
 	usuario_id INT AUTO_INCREMENT,
 	usuario_nombre VARCHAR(100),
-	usuario_clave BLOB,
+	usuario_clave VARCHAR(1000),
 	usuario_tipo INT,
 	usuario_estado BIT, /*1.Activo 0.Inactivo*/
 	PRIMARY KEY(usuario_id),
